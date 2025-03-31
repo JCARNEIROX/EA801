@@ -24,7 +24,7 @@
     O Script <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/main.py" target="_blank">main.py</a> segue a dinâmica descrita de acordo com o fluxograma da imagem à seguir:
 </p>
 <div align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/fluxograma.jpg">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/Fluxograma.jpg">
 </div></div>
 <p style="color:white; font-size:20px; text-align:left;">
     Os jogadores podem permanecer jogando e caso queiram reiniciar os placares podem pressionar o botão reset contido na placa!
