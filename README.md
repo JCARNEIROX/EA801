@@ -4,4 +4,4 @@ Repositório com os códigos e materiais utilizado para desenvolvimento da disci
 
 Os projetos disponíveis foram desenvolvidos pelos alunos:<br>
 *João Victor Gomes Carneiro* RA 239738<br>
-*Gustavo Elias da Silva* RA 236235
+*Gustavo Elias da Silva* RA 236236
