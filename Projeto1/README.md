@@ -27,5 +27,13 @@
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/Fluxograma.jpg">
 </div></div>
 <p style="color:white; font-size:20px; text-align:left;">
-    Os jogadores podem permanecer jogando e caso queiram reiniciar os placares podem pressionar o botão reset contido na placa!
+    Os jogadores podem permanecer jogando e caso queiram reiniciar os placares basta pressionar o botão reset contido na placa!
 </p>
+<h2 style="color:white; font-size:25px; text-align:left;">Imagens da Implementação na Placa</h1>
+<div align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/frente.jpg" width="100">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/inicio.jpg" width="100">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="100">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="100">
+</div>
+
