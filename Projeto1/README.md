@@ -1,7 +1,7 @@
 <h1 style="color:white; font-size:30px; text-align:center;">Reaction Time Game</h1>
 
 <div align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/farol.jpg">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/farol.jpg">
 </div></div>
 
 <p style="color:white; font-size:20px; text-align:left;">
@@ -24,7 +24,7 @@
     O Script <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/main.py" target="_blank">main.py</a> segue a dinâmica descrita de acordo com o fluxograma da imagem à seguir:
 </p>
 <div align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/Fluxograma.jpg">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/Fluxograma.jpg">
 </div></div>
 <p style="color:white; font-size:20px; text-align:left;">
     Os jogadores podem permanecer jogando e caso queiram reiniciar os placares basta pressionar o botão reset contido na placa!
@@ -33,14 +33,18 @@
 <div align="center">
     <table>
         <tr>
-            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/frente.jpg" width="300" height="300"></td>
-            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/inicio.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/frente.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/inicio.jpg" width="300" height="300"></td>
         </tr>
         <tr>
-            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300"></td>
-            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/start.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/start.jpg" width="300" height="300"></td>
         </tr>
     </table>
 </div>
-
-
+<p style="color:white; font-size:20px; text-align:left;">
+    A imagem acima mostra os estados que se passam durante o jogo na placa. A seguir tem-se um gif de uma simulação de uma jogada por um dos jogadores.
+</p>
+<div align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/gif.gif">
+</div></div>
