@@ -34,8 +34,20 @@
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/frente.jpg" width="300" height="300">
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/inicio.jpg" width="300" height="300">
     <br>
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300">
+    <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300">
+    <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300">
+</div>
+<div align="center">
+    <table>
+        <tr>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/frente.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/inicio.jpg" width="300" height="300"></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="300" height="300"></td>
+        </tr>
+    </table>
 </div>
 
 
