@@ -30,10 +30,12 @@
     Os jogadores podem permanecer jogando e caso queiram reiniciar os placares basta pressionar o botão reset contido na placa!
 </p>
 <h2 style="color:white; font-size:25px; text-align:left;">Imagens da Implementação na Placa</h1>
-<div align="center">
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/frente.jpg" width="100">
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/inicio.jpg" width="100">
+    <br>
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="100">
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/start.jpg" width="100">
 </div>
+
 
