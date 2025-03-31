@@ -19,3 +19,7 @@
 <p style="color:white; font-size:20px; text-align:left;">
     A linguagem de programação utilizada foi o Micropython e foi usado o <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> como ambiente de edição dos códigos assim como a extensão <a href="https://github.com/paulober/MicroPico" target="_blank">MicroPico</a> para permitir a interface entre computador e microntrolador.  
 </p>
+<h2 style="color:white; font-size:25px; text-align:left;">Fluxo do código</h1>
+<p style="color:white; font-size:20px; text-align:left;">
+    O Script <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/main.py" target="_blank">main.py</a>
+</p>
