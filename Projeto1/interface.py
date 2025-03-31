@@ -15,7 +15,7 @@ def tela_inicial():
     oled.text("players A and B.", 0, 31)
     oled.show()
 
-# Função para exibir o tempo de reação no display OLED
+# Função para exibir os últimos tempos de reação no display OLED
 def display_oled(reacA,reacB):
     oled.fill(0)  # Limpar display
     oled.text("Reaction Time", 12, 0)

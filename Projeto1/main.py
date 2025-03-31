@@ -1,3 +1,4 @@
+#Bibliotecas necessárias
 from machine import Pin, PWM, SoftI2C
 from ssd1306 import SSD1306_I2C
 import interface
@@ -29,7 +30,7 @@ COLOR_RED = (10, 0, 0)
 COLOR_GREEN = (0, 10, 0)
 COLOR_OFF = (0, 0, 0)
 
-# Padrão da matriz inicial (todos os LEDs acesos)
+# Padrão da matriz inicial (todos os LEDs acesos na cor vermelha)
 M_default = [
     [1, 1, 1, 1, 1],
     [1, 1, 1, 1, 1],
@@ -38,6 +39,7 @@ M_default = [
     [1, 1, 1, 1, 1]
 ]
 
+# Função para exibir a matriz de LEDs
 def draw_matriz(matriz, color):
     """Exibe a matriz de LEDs."""
     for i in range(25):
@@ -51,7 +53,7 @@ def draw_matriz(matriz, color):
 
     chain.write()
 
-# Função para medir o tempo de reação
+# Função para medir o tempo de reação do jogador
 def medir_reacao():
     # Aguarda o verde ser aceso e o botão ser pressionado
     start_time = time.ticks_ms()  # Inicia o contador de tempo
@@ -68,6 +70,7 @@ def bip_buzzer(duty,duration):
     time.sleep(duration)           # Duração do bip (0.1 segundos)
     buzzer.duty_u16(0)        # Desliga o buzzer
 
+# Função para fazer a contagem regressiva e ir apagando os LEDs da matriz
 def contagem_regressiva():
     time.sleep(1)
     """Apaga os LEDs um por um antes de acender o verde."""
@@ -76,7 +79,7 @@ def contagem_regressiva():
         for j in range(4, -1, -1):
             matriz[i][j] = 0
         draw_matriz(matriz, COLOR_RED)
-        bip_buzzer(700, 0.1)
+        bip_buzzer(1000, 0.1)
         time.sleep(1)  
 
     time.sleep(random.uniform(1, 4))  # Aguarda um tempo aleatório antes de acender o verde
@@ -89,29 +92,34 @@ start_game = True
 reacA = 0
 reacB=  0    
 while True:
-    if start_game:
+    if start_game: # Se nenum dos jogadores terem feito nenhuma tentativa de jogar
         draw_matriz(M_default, COLOR_RED)  # Exibe os LEDs em vermelho inicialmente
-        interface.tela_inicial()  # Exibe o display OLED com os tempos de reação zerados
-    else:
+        interface.tela_inicial()  # Exibe a tela inicial do jogo
+
+    else: # Caso contrário exibe os ultimos tempos de reação
         draw_matriz(M_default, COLOR_RED)  # Exibe os LEDs em vermelho inicialmente
         interface.display_oled(reacA,reacB)
+
+    #Detecta se é o Jogador A 
     if (button_a.value() == 0):
         start_game = False
+        #Aguarda os dois botões serem pressionados simultaneamente para iniciar a contagem
         while not ((button_a.value() == 0) and (button_b.value() == 0)):
                 interface.start()
         else:
             contagem_regressiva()
             reacA = medir_reacao()
             
-            print(f"Tempo de reacao A: {reacA} ms")  # Exibe o tempo de reação
-    
+            print(f"Tempo de reacao A: {reacA} ms")  # Exibe o tempo de reação no console do computador
+    #Detecta se é o Jogador B
     if (button_b.value() == 0):
         start_game = False
+        #Aguarda os dois botões serem pressionados simultaneamente para iniciar a contagem
         while not ((button_a.value() == 0) and (button_b.value() == 0)):
                 interface.start()
         else:
             contagem_regressiva()
             reacB = medir_reacao()
     
-            print(f"Tempo de reacao B: {reacB} ms")  # Exibe o tempo de reação
+            print(f"Tempo de reacao B: {reacB} ms")  # Exibe o tempo de reação no console do computador
             
