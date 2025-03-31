@@ -21,5 +21,11 @@
 </p>
 <h2 style="color:white; font-size:25px; text-align:left;">Fluxo do código</h1>
 <p style="color:white; font-size:20px; text-align:left;">
-    O Script <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/main.py" target="_blank">main.py</a>
+    O Script <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/main.py" target="_blank">main.py</a> segue a dinâmica descrita de acordo com o fluxograma da imagem à seguir:
+</p>
+<div align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/fluxograma.jpg">
+</div></div>
+<p style="color:white; font-size:20px; text-align:left;">
+    Os jogadores podem permanecer jogando e caso queiram reiniciar os placares podem pressionar o botão reset contido na placa!
 </p>
