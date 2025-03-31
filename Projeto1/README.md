@@ -8,6 +8,14 @@
     Este jogo foi inspirado nas corridas de fórmula 1 e provas de arrancadas popularmente conhecidas. Neste tipo de esporte os pilotos dos carros precisam estar atentos aos faróis para dar a largada e iniciar a corrida. Neste esporte geralmente os faróis possuem o layout como da imagem acima e a contagem para partida se inicia na horizontal ascendendo cada luz vermelha, a partida é autorizada quando todas as luzes se apagam.
 </p>
 <p style="color:white; font-size:20px; text-align:left;">
-    O <b>Reaction Time Game</b> vem para simular na placa <a href="https://github.com/BitDogLab/BitDogLab" target="_blank">BitDogLab</a> esta etapa inicial presente nos esportes de automobilismo, o jogo visa propor uma disputa entre dois jogadores para ver qual possui melhor tempo de reação.
-
+    O <b>Reaction Time Game</b> vem para simular na placa <a href="https://github.com/BitDogLab/BitDogLab" target="_blank">BitDogLab</a> esta etapa inicial presente nos esportes de automobilismo, o jogo visa propor uma disputa entre dois jogadores para ver qual possui melhor tempo de reação. Para este fim foram utilizados os seguintes periféricos presente na placa:
+</p>
+<ul style="color:white; font-size:20px";>
+    <li>Matriz de LEDs</li>
+    <li>Display OLED</li>
+    <li>Botões A e B</li>
+    <li>BBuzzer</li>
+</ul>
+<p style="color:white; font-size:20px; text-align:left;">
+    A linguagem de programação utilizada foi o Micropython e foi usado o <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> como ambiente de edição dos códigos assim como a extensão <a href="https://github.com/paulober/MicroPico" target="_blank">MicroPico</a> para permitir a interface entre computador e microntrolador.  
 </p>
