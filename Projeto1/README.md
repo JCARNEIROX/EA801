@@ -61,3 +61,10 @@
 <p style="color:white; font-size:20px; text-align:left;">
     Conheça mais sobre o projeto e também conheça mais sobre os compnentes da placa assim como tenha acesso a cursos e tutoriais com códigos em <a href="https://bitdoglab.webcontent.website/" target="_blank">BitDogLab.org</a>
 </p>
+
+<h2 style="color:white; font-size:25px; text-align:left;">Autores</h2>
+<p style="color:white; font-size:20px; text-align:left;">
+    João Victor Gomes Carneiro <b>RA:</b> 239738<br>
+    Gustavo Elias da Silva <b>RA:</b> 236235<br>
+    <b> Faculdade de Engenharia Elétrica e Computação (FEEC) </b>
+</p>
