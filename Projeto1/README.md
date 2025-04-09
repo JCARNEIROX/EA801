@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/start.jpg" width="300" height="300"></td>
-            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/start.jpg" width="300" height="300"></td>
+            <td><img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/placar.jpg" width="300" height="300"></td>
         </tr>
     </table>
 </div>
