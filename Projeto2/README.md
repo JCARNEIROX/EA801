@@ -20,7 +20,7 @@
     O fluxograma da execução do projeto está descrito na imagem abaixo:
 </p>
 <div align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2/imagens/Fluxograma.png">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2/imagens/Fluxograma.jpg">
 </div></div>
 
 <h2 style="color:white; font-size:25px; text-align:left;">Resultados </h2>
@@ -41,12 +41,6 @@
         </tr>
     </table>
 </div>
-<p style="color:white; font-size:20px; text-align:left;">
-    A imagem acima mostra os estados que se passam durante o jogo na placa. A seguir tem-se um gif de uma simulação de uma jogada por um dos jogadores.
-</p>
-<div align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/imagens/gif.gif" width="600" height="600">
-</div></div>
 
 <h2 style="color:white; font-size:25px; text-align:left;">Instruções de utilização</h2>
 <p style="color:white; font-size:20px; text-align:left;">
