@@ -44,7 +44,7 @@
 
 <h2 style="color:white; font-size:25px; text-align:left;">Instruções de utilização</h2>
 <p style="color:white; font-size:20px; text-align:left;">
-    As instruções de configuração da sua placa pode ser encontrada no repositório do projeto  <a href="https://github.com/BitDogLab/BitDogLab" target="_blank">BitDogLab</a>, após feita as configurações caso esteja utilizando o VSCode pode carregar os arquivos <b>.py</b> localizados no diretório do <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2" target="_blank">Projeto2</a> na memória da placa <b>Raspberry Pi Pico </b>. Caso surja um erro durante o carregamento de um dos arquivos devido ao <i>import</i> do módulo <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto1/ssd1306.py" target="_blank">ssd1306.py</a> faça também o upload do mesmo.
+    As instruções de configuração da sua placa pode ser encontrada no repositório do projeto  <a href="https://github.com/BitDogLab/BitDogLab" target="_blank">BitDogLab</a>, após feita as configurações caso esteja utilizando o VSCode pode carregar os arquivos <b>.py</b> localizados no diretório do <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2" target="_blank">Projeto2</a> na memória da placa <b>Raspberry Pi Pico </b>. Caso surja um erro durante o carregamento de um dos arquivos devido ao <i>import</i> do módulo <a href="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2/ssd1306.py" target="_blank">ssd1306.py</a> faça também o upload do mesmo.
 </p>
 
 <p style="color:white; font-size:20px; text-align:left;">
