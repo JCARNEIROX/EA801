@@ -123,7 +123,7 @@
             alt="Figura 9"
             width="300" height="300"
           >
-          <figcaption><strong>Figura 6:</strong> Figura 9.</figcaption>
+          <figcaption><strong>Figura 9.</strong> </figcaption>
         </figure>
       </td>
     </tr>
@@ -136,7 +136,7 @@
             alt="Figura 10"
             width="300" height="300"
           >
-          <figcaption><strong>Figura 7:</strong> Figura 10.</figcaption>
+          <figcaption><strong>Figura 10.</strong> </figcaption>
         </figure>
       </td>
       <td>
@@ -146,7 +146,7 @@
             alt="Figura 11"
             width="300" height="300"
           >
-          <figcaption><strong>Figura 8:</strong> Figura 11.</figcaption>
+          <figcaption><strong>Figura 11.</strong> </figcaption>
         </figure>
       </td>
     </tr>
@@ -159,7 +159,7 @@
             alt="Figura 12"
             width="300" height="300"
           >
-          <figcaption><strong>Figura 9:</strong> Figura 12.</figcaption>
+          <figcaption><strong>Figura 12.</strong> </figcaption>
         </figure>
       </td>
       <td>
@@ -169,7 +169,7 @@
             alt="Figura 13"
             width="300" height="300"
           >
-          <figcaption><strong>Figura 10:</strong> Figura 13.</figcaption>
+          <figcaption><strong>Figura 13.</strong> </figcaption>
         </figure>
       </td>
     </tr>
