@@ -60,11 +60,12 @@ A seguir, detalhes do circuito e suas características de funcionamento.
 </p>
 
 <h2 style="color:white; font-size:25px; text-align:left;">Projeto da PCB</h2>
+
 <p style="color:white; font-size:20px; text-align:left;">
 Foi desenvolvida uma PCB para compatibilizar os diferentes níveis de tensão: a solenóide opera em 12 V, e a BitDogLab em ≈ 4,3 V (5 V do regulador menos a queda de um diodo em série). O projeto da placa foi feito no KiCad e confeccionado em laboratório.</p>
 <p align="center">
     <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto3/imagens/schematico_kicad.png"
-    alt="Figura 1"
+    alt="Figura 1">
     <br>
     <em>Figura 1 - Esquemático da placa de circuito impresso <em>
 </p>
