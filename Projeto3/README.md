@@ -1,10 +1,9 @@
 <h1 style="color:white; font-size:30px; text-align:center;">Security Game</h1>
 
 <p align="center">
-    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto2/imagens/cofre.jpg"
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto3/imagens/cofre.jpg"
     alt="Figura 1">
     ><br>
-    <em>Figura 1 - Cofre eletrônico <em>
 </p>
 
 <h3 style="color:white; font-size:20px; text-align:left;">EA801</h3>
@@ -63,12 +62,29 @@ A seguir, detalhes do circuito e suas características de funcionamento.
 <h2 style="color:white; font-size:25px; text-align:left;">Projeto da PCB</h2>
 <p style="color:white; font-size:20px; text-align:left;">
 Foi desenvolvida uma PCB para compatibilizar os diferentes níveis de tensão: a solenóide opera em 12 V, e a BitDogLab em ≈ 4,3 V (5 V do regulador menos a queda de um diodo em série). O projeto da placa foi feito no KiCad e confeccionado em laboratório.</p>
-<!-- Inserir figuras do esquemático e da vista 3D aqui, se desejar -->
+<p align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto3/imagens/schematico_kicad.png"
+    alt="Figura 1">
+    ><br>
+    <em>Figura 1 - Esquemático da placa de circuito impresso <em>
+</p>
+<p align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto3/imagens/PCB_3D.png"
+    alt="Figura 1">
+    ><br>
+    <em>Figura 2 - Vista 3D da placa de circuito impresso <em>
+</p>
+
 
 <h2 style="color:white; font-size:25px; text-align:left;">Funcionamento do Jogo</h2>
 
 <p style="color:white; font-size:20px; text-align:left;">O fluxograma de execução está ilustrado abaixo.</p>
-<!-- Inserir imagem do fluxograma aqui -->
+<p align="center">
+    <img src="https://github.com/JCARNEIROX/EA801/blob/main/Projeto3/imagens/fluxograma.png"
+    alt="Figura 1">
+    ><br>
+    <em>Figura 3 -Fluxograma do Projeto <em>
+</p>
 
 <p style="color:white; font-size:20px; text-align:left;">Implementou-se também um dispositivo de segurança: ao digitar a senha padrão <strong>*801</strong> a qualquer momento em espera de sequência, o cofre libera imediatamente. Ao fechar a porta, o jogo reinicia.</p>
 
